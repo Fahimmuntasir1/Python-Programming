@@ -30,3 +30,9 @@ Sample Output 0
 9
 16
 '''
+#------ solution ------
+n=5
+i=0
+while i<n:
+	print(i*i)
+	i=i+1
