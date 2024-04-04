@@ -72,4 +72,5 @@ def mutable_string(position, string, charectar):
 	string = ''.join(l)
 	return string
 	
-#mutable_string(6, 'fahim043', 7)
+res = mutable_string(6, 'fahim untasir', 'm')
+print (res)
