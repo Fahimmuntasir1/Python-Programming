@@ -1,4 +1,4 @@
-# Python-Programming
+# Python-Problems
 Here I am solving and practicing hackerrank problems.
 
 ## Hackerrank Profile
