@@ -33,4 +33,4 @@ Explanation 0
 The input read by the program is stored as a string data type. A string is a collection of characters.
 '''
 def printFullName(first, last):
-   print(f'Hello {first} {last}! You just delved into python.
+   print(f'Hello {first} {last}')#! You just delved into python.
