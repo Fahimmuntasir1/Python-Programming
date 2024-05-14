@@ -10,3 +10,7 @@
 # Initialize your list and read in the value of  followed by  lines of commands where each command will be of the  types listed above. Iterate through each command in order and perform the corresponding operation on your list.
 
 # https://www.hackerrank.com/challenges/python-lists/problem?isFullScreen=true
+
+
+N = input("Enter your command")
+mylist = []
