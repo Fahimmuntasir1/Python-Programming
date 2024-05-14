@@ -1,4 +1,3 @@
-
 # take two variable to store score & students
 scores = []
 students = []
