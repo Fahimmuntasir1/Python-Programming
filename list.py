@@ -14,3 +14,7 @@
 
 N = input("Enter your command")
 mylist = []
+command = input().split()
+for i in range(N):
+    if command[0] == "insert":
+        mylist.insert(int(command[1], int(command[2])))
