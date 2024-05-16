@@ -12,15 +12,21 @@
 # https://www.hackerrank.com/challenges/python-lists/problem?isFullScreen=true
 
 
-N = input("Enter your command")
+N = int(input())
 mylist = []
-command = input().split()
 for i in range(N):
+    command = input().split()
     if command[0] == "insert":
-        mylist.insert(int(command[1], int(command[2])))
+        mylist.insert(int(command[1]), int(command[2]))
     elif command[0] == "print":
         print(mylist)
     elif command[0] == "remove":
         mylist.remove(int(command[1]))
     elif command[0] == "append":
         mylist.append(int(command[1]))
+    elif command[0] == "sort":
+        mylist.sort()
+    elif command[0] == "pop":
+        mylist.pop()
+    elif command[0] == "reverse":
+        mylist.reverse()
