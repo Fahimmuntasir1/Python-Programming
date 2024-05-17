@@ -39,11 +39,17 @@
 
 # Solution
 def count_substring(string, sub_string):
-    x = []
-    for i in range(len(string)):
-        return
+    strLen = len(string)
+    subStrLen = len(sub_string)
+    count = 0
+
+    for i in range(strLen - subStrLen):
+        # return string[i]
+        if string[i : (i + subStrLen)] == sub_string:
+            count = count + 1
+        return count
 
 
 input1 = input("input a string : ")
 input2 = input("input a sub string : ")
-count_substring(input1, input2)
+print(count_substring(input1, input2))
