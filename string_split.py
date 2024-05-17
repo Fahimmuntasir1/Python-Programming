@@ -20,3 +20,13 @@
 # Sample Output
 
 # this-is-a-string
+
+line = input("Enter a string to split : ")
+
+
+def string_split(string):
+    x = string.split()
+    return "-".join(x)
+
+
+print(string_split(line))
