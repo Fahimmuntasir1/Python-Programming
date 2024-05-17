@@ -16,4 +16,12 @@
 # string: the modified string
 # Input Format
 
+
 # A single line containing a string .
+# Solution
+def swap_case(s):
+    return s.swapcase()
+
+
+userInput = input("Enter text to swap case : ")
+print(swap_case(userInput))
