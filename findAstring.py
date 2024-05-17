@@ -35,3 +35,15 @@
 
 # range (0, 5)
 # Here, the range loops over  to .  is excluded.
+
+
+# Solution
+def count_substring(string, sub_string):
+    x = []
+    for i in range(len(string)):
+        return
+
+
+input1 = input("input a string : ")
+input2 = input("input a sub string : ")
+count_substring(input1, input2)
