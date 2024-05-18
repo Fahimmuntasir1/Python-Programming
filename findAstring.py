@@ -45,7 +45,7 @@ def count_substring(string, sub_string):
         b = string.find(sub_string, i, len(string))
         if b != -1 and b not in a:
             a.append(b)
-    print(a)
+    return len(a)
 
 
 input1 = input("input a string : ")
