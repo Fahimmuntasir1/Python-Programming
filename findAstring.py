@@ -39,15 +39,13 @@
 
 # Solution
 def count_substring(string, sub_string):
-    strLen = len(string)
-    subStrLen = len(sub_string)
-    count = 0
 
-    for i in range(strLen - subStrLen):
-        # return string[i]
-        if string[i : (i + subStrLen)] == sub_string:
-            count = count + 1
-        return count
+    a = []
+    for i in range(len(string)):
+        b = string.find(sub_string, i, len(string))
+        if b != -1 and b not in a:
+            a.append(b)
+    print(a)
 
 
 input1 = input("input a string : ")
