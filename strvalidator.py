@@ -26,3 +26,19 @@
 # True
 # True
 # True
+
+s = input("Input a string : ")
+num = alpha = digit = lower = upper = False
+for c in s:
+    if c.isalnum:
+        num = True
+    if c.isalpha:
+        alpha = True
+    if c.isdigit:
+        digit = True
+    if c.islower:
+        lower = True
+    if c.upper:
+        upper = True
+
+print(f"{num}\n{alpha}\n{digit}\n{lower}\n{upper}")
