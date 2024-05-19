@@ -27,28 +27,35 @@
 # True
 # True
 
-s = input("Input a string : ")
+# s = input("Input a string : ")
 
-for c in s:
-    if c.isalnum:
-        num = True
-    else:
-        num = False
-    if c.isalpha:
-        alpha = True
-    else:
-        alpha = False
-    if c.isdigit:
-        digit = True
-    else:
-        digit = False
-    if c.islower:
-        lower = True
-    else:
-        lower = False
-    if c.upper:
-        upper = True
-    else:
-        upper = False
+# for c in s:
+#     if c.isalnum():
+#         num = True
+#     else:
+#         num = False
+#     if c.isalpha():
+#         alpha = True
+#     else:
+#         alpha = False
+#     if c.isdigit():
+#         digit = True
+#     else:
+#         digit = False
+#     if c.islower():
+#         lower = True
+#     else:
+#         lower = False
+#     if c.upper():
+#         upper = True
+#     else:
+#         upper = False
 
-print(f"{num}\n{alpha}\n{digit}\n{lower}\n{upper}")
+# print(f"{num}\n{alpha}\n{digit}\n{lower}\n{upper}")
+
+s = input("input a string")
+print(any([x.isalnum() for x in s]))
+print(any([x.isalpha() for x in s]))
+print(any([x.isdigit() for x in s]))
+print(any([x.islower() for x in s]))
+print(any([x.isupper() for x in s]))
