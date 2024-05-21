@@ -56,3 +56,9 @@ x, y = map(int, input("Enter the size of mat: ").split(" "))
 
 for i in range(1, x, 2):
     print((".|. " * i).center(y, "-"))
+
+print("Welcome".center(y, "-"))
+
+
+for i in range(x - 2, -1, -2):
+    print((".|. " * i).center(y, "-"))
