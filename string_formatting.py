@@ -48,5 +48,5 @@ user = input("Enter a number here : ")
 
 
 def print_formatted(number):
-    for i in range(0, 100):
+    for i in range(0, number):
         print(i)
