@@ -44,10 +44,18 @@
 #    16    20    10 10000
 #    17    21    11 10001
 
-user = input("Enter a number here : ")
+user = int(input("Enter a number here : "))
+width = len(bin(user)) - 2
+print(width)
 
 
 def print_formatted(number):
-    for i in range(0, number):
+    for i in range(1, number + 1):
         # print the decimal number
-        print(i)
+        print(str(i).rjust(width), end=" ")
+        print(oct(i)[2:].rjust(width), end=" ")
+        print(hex(i)[2:].upper().rjust(width), end=" ")
+        print(bin(i)[2:].rjust(width))
+
+
+print(print_formatted(user))
